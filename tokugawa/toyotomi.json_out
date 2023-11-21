@@ -1,0 +1,86 @@
+graph family {
+	node [dir=none shape=box]
+	rankdir=TB
+	rankdir=TB
+	{
+		graph [rank=same]
+		"木下弥右衛門" [fillcolor="#f0f0ff" style=filled]
+		"なか" [fillcolor="#fff0e0" style=filled]
+		"木下弥右衛門_なか" [shape=point]
+		"木下弥右衛門" -- "木下弥右衛門_なか" [dir=none]
+		"木下弥右衛門_なか" -- "なか" [dir=none]
+	}
+	"木下弥右衛門_なか_pc" [shape=point]
+	"木下弥右衛門_なか" -- "木下弥右衛門_なか_pc" [dir=none]
+	"豊臣秀吉"
+	"木下弥右衛門_なか_pc" -- "豊臣秀吉" [dir=none]
+	"とも"
+	"木下弥右衛門_なか_pc" -- "とも" [dir=none]
+	rankdir=TB
+	{
+		graph [rank=same]
+		"豊臣秀吉" [fillcolor="#f0f0ff" style=filled]
+		"およね" [fillcolor="#fff0e0" style=filled]
+		"豊臣秀吉_およね" [shape=point]
+		"豊臣秀吉" -- "豊臣秀吉_およね" [dir=none]
+		"豊臣秀吉_およね" -- "およね" [dir=none]
+	}
+	rankdir=TB
+	{
+		graph [rank=same]
+		"豊臣秀吉" [fillcolor="#f0f0ff" style=filled]
+		"茶々" [fillcolor="#fff0e0" style=filled]
+		"豊臣秀吉_茶々" [shape=point]
+		"豊臣秀吉" -- "豊臣秀吉_茶々" [dir=none]
+		"豊臣秀吉_茶々" -- "茶々" [dir=none]
+	}
+	"豊臣秀吉_茶々_pc" [shape=point]
+	"豊臣秀吉_茶々" -- "豊臣秀吉_茶々_pc" [dir=none]
+	"豊臣鶴松"
+	"豊臣秀吉_茶々_pc" -- "豊臣鶴松" [dir=none]
+	"豊臣秀頼"
+	"豊臣秀吉_茶々_pc" -- "豊臣秀頼" [dir=none]
+	rankdir=TB
+	{
+		graph [rank=same]
+		"三好良房" [fillcolor="#f0f0ff" style=filled]
+		"とも" [fillcolor="#fff0e0" style=filled]
+		"三好良房_とも" [shape=point]
+		"三好良房" -- "三好良房_とも" [dir=none]
+		"三好良房_とも" -- "とも" [dir=none]
+	}
+	"三好良房_とも_pc" [shape=point]
+	"三好良房_とも" -- "三好良房_とも_pc" [dir=none]
+	"豊臣秀次"
+	"三好良房_とも_pc" -- "豊臣秀次" [dir=none]
+	"豊臣秀勝"
+	"三好良房_とも_pc" -- "豊臣秀勝" [dir=none]
+	"豊臣秀保"
+	"三好良房_とも_pc" -- "豊臣秀保" [dir=none]
+	rankdir=TB
+	{
+		graph [rank=same]
+		"豊臣秀頼" [fillcolor="#f0f0ff" style=filled]
+		"千姫" [fillcolor="#fff0e0" style=filled]
+		"豊臣秀頼_千姫" [shape=point]
+		"豊臣秀頼" -- "豊臣秀頼_千姫" [dir=none]
+		"豊臣秀頼_千姫" -- "千姫" [dir=none]
+	}
+	"豊臣秀頼_千姫_pc" [shape=point]
+	"豊臣秀頼_千姫" -- "豊臣秀頼_千姫_pc" [dir=none]
+	"豊臣国松"
+	"豊臣秀頼_千姫_pc" -- "豊臣国松" [dir=none]
+	rankdir=TB
+	{
+		graph [rank=same]
+		"徳川秀忠" [fillcolor="#f0f0ff" style=filled]
+		"お江" [fillcolor="#fff0e0" style=filled]
+		"徳川秀忠_お江" [shape=point]
+		"徳川秀忠" -- "徳川秀忠_お江" [dir=none]
+		"徳川秀忠_お江" -- "お江" [dir=none]
+	}
+	"徳川秀忠_お江_pc" [shape=point]
+	"徳川秀忠_お江" -- "徳川秀忠_お江_pc" [dir=none]
+	"千姫"
+	"徳川秀忠_お江_pc" -- "千姫" [dir=none]
+}

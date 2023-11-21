@@ -1,0 +1,69 @@
+graph family {
+	node [dir=none shape=box]
+	rankdir=TB
+	rankdir=TB
+	{
+		graph [rank=same]
+		"徳川家康" [fillcolor="#f0f0ff" style=filled]
+		"西郷局" [fillcolor="#fff0e0" style=filled]
+		"徳川家康_西郷局" [shape=point]
+		"徳川家康" -- "徳川家康_西郷局" [dir=none]
+		"徳川家康_西郷局" -- "西郷局" [dir=none]
+	}
+	"徳川家康_西郷局_pc" [shape=point]
+	"徳川家康_西郷局" -- "徳川家康_西郷局_pc" [dir=none]
+	"徳川家忠"
+	"徳川家康_西郷局_pc" -- "徳川家忠" [dir=none]
+	rankdir=TB
+	{
+		graph [rank=same]
+		"徳川家忠" [fillcolor="#f0f0ff" style=filled]
+		"お江" [fillcolor="#fff0e0" style=filled]
+		"徳川家忠_お江" [shape=point]
+		"徳川家忠" -- "徳川家忠_お江" [dir=none]
+		"徳川家忠_お江" -- "お江" [dir=none]
+	}
+	"徳川家忠_お江_pc" [shape=point]
+	"徳川家忠_お江" -- "徳川家忠_お江_pc" [dir=none]
+	"徳川家光"
+	"徳川家忠_お江_pc" -- "徳川家光" [dir=none]
+	rankdir=TB
+	{
+		graph [rank=same]
+		"徳川家光" [fillcolor="#f0f0ff" style=filled]
+		"お楽の方" [fillcolor="#fff0e0" style=filled]
+		"徳川家光_お楽の方" [shape=point]
+		"徳川家光" -- "徳川家光_お楽の方" [dir=none]
+		"徳川家光_お楽の方" -- "お楽の方" [dir=none]
+	}
+	"徳川家光_お楽の方_pc" [shape=point]
+	"徳川家光_お楽の方" -- "徳川家光_お楽の方_pc" [dir=none]
+	"徳川家綱"
+	"徳川家光_お楽の方_pc" -- "徳川家綱" [dir=none]
+	rankdir=TB
+	{
+		graph [rank=same]
+		"徳川家光" [fillcolor="#f0f0ff" style=filled]
+		"お玉" [fillcolor="#fff0e0" style=filled]
+		"徳川家光_お玉" [shape=point]
+		"徳川家光" -- "徳川家光_お玉" [dir=none]
+		"徳川家光_お玉" -- "お玉" [dir=none]
+	}
+	"徳川家光_お玉_pc" [shape=point]
+	"徳川家光_お玉" -- "徳川家光_お玉_pc" [dir=none]
+	"徳川綱吉"
+	"徳川家光_お玉_pc" -- "徳川綱吉" [dir=none]
+	rankdir=TB
+	{
+		graph [rank=same]
+		"徳川家光" [fillcolor="#f0f0ff" style=filled]
+		"お夏" [fillcolor="#fff0e0" style=filled]
+		"徳川家光_お夏" [shape=point]
+		"徳川家光" -- "徳川家光_お夏" [dir=none]
+		"徳川家光_お夏" -- "お夏" [dir=none]
+	}
+	"徳川家光_お夏_pc" [shape=point]
+	"徳川家光_お夏" -- "徳川家光_お夏_pc" [dir=none]
+	"徳川綱重"
+	"徳川家光_お夏_pc" -- "徳川綱重" [dir=none]
+}

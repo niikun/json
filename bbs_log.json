@@ -1,0 +1,23 @@
+{
+    "lastid": 3,
+    "logs": [
+        {
+            "name": "niikun",
+            "msg": "aaa",
+            "time": 1700599367.198588,
+            "id": 1
+        },
+        {
+            "name": "niikun",
+            "msg": "aaa",
+            "time": 1700599394.2017689,
+            "id": 2
+        },
+        {
+            "name": "niikun",
+            "msg": "aaa",
+            "time": 1700599412.044235,
+            "id": 3
+        }
+    ]
+}
